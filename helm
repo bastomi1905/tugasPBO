@@ -1,0 +1,19 @@
+public class helm{
+	/*(int kodeHelm,int noHelm,String namaHelm, string typeHelm, String warnaHelm, string ukuranHelm,int merkHelm, int hargaHelm,beratHelm*/
+	
+	public static void main (String[] args){
+		Helm as = new helm(771610, 10, "KYTTWOEVOLUTION", "openface, merah","M","KYT", 230000, "3kg","Klinik");
+		System.out.println("	HELM	");
+		System.out.print("----------"+as.kodeHelm());
+		System.out.println("----------");
+		System.out.println("MERK`		: "+as.merkHelm());
+		System.out.println("TYPE		: "+as.typeHelm());
+		System.out.println("NAMA HELM 		: "+as.namaHelm());
+		System.out.println("NO HELM		: "+as.noHelm());
+		System.out.println("UKURAN HELM	 	: "+as.ukuranHelm());
+		System.out.println("WARNAHELM	: "+as.warnaHelm());
+		System.out.println("TYPE HELM		: "+as.typeHelm());
+		System.out.println("BERAT		: "+as.beratHelm*/());
+
+	}
+}
